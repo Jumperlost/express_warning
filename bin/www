@@ -1,0 +1,49 @@
+// const express = require("express");
+// const app = express();
+
+// app.use(express.static("public"));
+
+// app.set("view engine", "pug");
+
+// app.set("views", "./views");
+
+// var port = normalizePort(process.env.PORT || "3000");
+// app.set("port", port);
+
+// function normalizePort(val) {
+//   var port = parseInt(val, 10);
+
+//   if (isNaN(port)) {
+//     // named pipe
+//     return val;
+//   }
+
+//   if (port >= 0) {
+//     // port number
+//     return port;
+//   }
+
+//   return false;
+// }
+
+// function randomInt(min, max) {
+//   return Math.floor(Math.random() * (max - min + 1)) + min;
+// }
+
+// app.get("/", (req, res) => {
+//   console.log("Server request");
+//   console.log(req.url, req.method);
+//   const delay = randomInt(4000, 10000);
+//   const isError = Math.random() < 0.1;
+//   setTimeout(() => {
+//     if (isError) {
+//       res.status(500).send("Internal Server Error");
+//     } else {
+//       res.send("Hello World!");
+//     }
+//   }, delay);
+// });
+
+// app.listen(port, () => {
+//   console.log(`Example app listening on port ${port}`);
+// });

@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  div(class="flex flex-col justify-center items-center border-2 border-white gap-1 p-3.5 rounded-md") 
+    span(class="text-slate-50 uppercase p-3.5") Request box 
+    span(class="text-slate-50 uppercase p-3.5") The response time is:
+    span(class="text-slate-50 uppercase p-3.5 underline") #{responseTime} milliseconds
+    button(class="text-slate-50 p-3 border-2 border-white rounded-md" type="button", onclick="location.reload();") Restart Page
+
+  
